@@ -5,6 +5,7 @@ public class App {
 	public static void main(String[] args) {
 		System.out.println(recursiveBinarySearchNew(new int[] {1,2,3,4,7,9,12,18}, 0, 7,  99));
 		System.out.println(binarySearchNew(new int[] {1,2,3,4,7,9,12,18}, 7));
+		System.out.println("Hello Algo Interview~");
 	}
 	
 	public static int binarySearch(int [] a, int x){
