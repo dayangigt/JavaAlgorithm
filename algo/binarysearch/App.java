@@ -63,9 +63,9 @@ public class App {
 			if(a[q] == x){
 				return q;
 			} else if (a[q] > x){
-				return recursiveBinarySearch(a, l, q-1, x);
+				return recursiveBinarySearchNew(a, l, q-1, x);
 			} else{
-				return recursiveBinarySearch(a, q+1, r, x);
+				return recursiveBinarySearchNew(a, q+1, r, x);
 			}
 		}
 	}	
